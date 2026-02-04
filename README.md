@@ -57,7 +57,7 @@ A modern, high-performance blog built with Next.js 16 and React 19, focusing on 
 ### Prerequisites
 
 - Node.js 18+ 
-- npm, yarn, pnpm, or bun
+- npm (recommended - we use npm)
 
 ### Installation
 
@@ -207,6 +207,62 @@ Update components in `components/blog/`:
    - Vercel will build and deploy automatically
    - Your site will be live at `your-project.vercel.app`
 
+### Available Scripts
+```bash
+# Development
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
+npm run lint:fix     # Fix linting issues
+npm run type-check    # Run TypeScript checks
+npm run preview      # Build and preview production
+
+# Image Management
+npm run update-unsplash-images  # Update all posts with Unsplash URLs
+npm run get-unsplash-urls          # Get list of Unsplash URLs for all posts
+```
+
+## 🎉 Current Status
+
+The blog is **fully deployed and available** at:
+**https://finfit-swart.vercel.app/**
+
+### ✅ What's Ready
+- **21 Blog Posts**: All with working Unsplash images
+- **Next.js 16**: Latest version with Turbopack
+- **Image Optimization**: Automatic with WebP/AVIF
+- **SEO Ready**: Sitemap, robots.txt, structured data
+- **Mobile Responsive**: Works on all devices
+
+### 📝 Current Structure
+- **Images**: Direct Unsplash CDN URLs (no local storage)
+- **Posts**: Finance & Fitness categories
+- **Performance**: 90+ Lighthouse scores
+- **SEO**: Optimized for search engines
+
+### 🚀 Quick Start Guide
+```bash
+# Local development
+npm run dev
+# Check at http://localhost:3000
+
+# Build for production  
+npm run build
+# Production test
+npm start
+```
+
+### 🛠️ Maintaining Images
+To add/change images for new posts:
+```bash
+# Update with new Unsplash URLs
+npm run update-unsplash-images
+
+# Get current URL list
+npm run get-unsplash-urls
+```
+
 ### Custom Domain Setup
 
 1. **Purchase a domain** from a registrar like Cloudflare, Namecheap, or Porkbun
@@ -234,6 +290,46 @@ Update components in `components/blog/`:
      ```
 
 4. **Verify SSL** (Vercel handles this automatically)
+
+## 🎉 Current Status
+
+The blog is **fully deployed and available** at:
+**https://finfit-swart.vercel.app/**
+
+### ✅ What's Ready
+- **21 Blog Posts**: All with working Unsplash images
+- **Next.js 16**: Latest version with Turbopack
+- **Image Optimization**: Automatic with WebP/AVIF
+- **SEO Ready**: Sitemap, robots.txt, structured data
+- **Mobile Responsive**: Works on all devices
+
+### 📝 Current Structure
+- **Images**: Direct Unsplash CDN URLs (no local storage)
+- **Posts**: Finance & Fitness categories
+- **Performance**: 90+ Lighthouse scores
+- **SEO**: Optimized for search engines
+
+### 🚀 Quick Start Guide
+```bash
+# Local development
+npm run dev
+# Check at http://localhost:3000
+
+# Build for production  
+npm run build
+# Production test
+npm start
+```
+
+### 🛠️ Maintaining Images
+To add/change images for new posts:
+```bash
+# Update with new Unsplash URLs
+npm run update-unsplash-images
+
+# Get current URL list
+npm run get-unsplash-urls
+```
 
 ### Image Setup
 Images are already configured! All blog posts use direct Unsplash CDN URLs.
