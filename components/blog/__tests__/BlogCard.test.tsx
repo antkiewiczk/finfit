@@ -26,8 +26,8 @@ jest.mock("next/link", () => {
 });
 
 jest.mock("next/image", () => {
-  return function MockImage({ alt, src, ...props }: any) {
-    return <img alt={alt} src={src} {...props} />;
+  return function MockImage({ alt, src, fill, ...props }: any) {
+    return <img alt={alt} src={src} data-fill={fill} {...props} />;
   };
 });
 

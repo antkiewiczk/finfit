@@ -66,9 +66,9 @@ describe('Home Page', () => {
   it('displays correct statistics', async () => {
     render(await Home())
     
+    const ones = screen.getAllByText('1')
+    expect(ones).toHaveLength(2) // Finance and Fitness articles
     expect(screen.getByText('2')).toBeInTheDocument() // Total articles
-    expect(screen.getByText('1')).toBeInTheDocument() // Finance articles
-    expect(screen.getByText('1')).toBeInTheDocument() // Fitness articles
   })
 
   it('shows featured articles section', async () => {
@@ -81,7 +81,8 @@ describe('Home Page', () => {
   it('renders blog cards for featured posts', async () => {
     render(await Home())
     
-    expect(screen.getByTestId('blog-card')).toBeInTheDocument()
+    const blogCards = screen.getAllByTestId('blog-card')
+    expect(blogCards).toHaveLength(2)
     expect(screen.getByText('Budgeting 101')).toBeInTheDocument()
   })
 
@@ -89,7 +90,7 @@ describe('Home Page', () => {
     render(await Home())
     
     expect(screen.getByTestId('category-filter')).toBeInTheDocument()
-    expect(screen.getByText('1 categories')).toBeInTheDocument()
+    expect(screen.getByText('2 categories')).toBeInTheDocument()
   })
 
   it('displays "View All Articles" link when more than 6 posts', async () => {

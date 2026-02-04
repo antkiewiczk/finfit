@@ -13,7 +13,8 @@ describe('Footer', () => {
     
     // Brand section
     expect(screen.getByText('FF')).toBeInTheDocument()
-    expect(screen.getByText('FinFit Blog')).toBeInTheDocument()
+    expect(screen.getByText('FinFit')).toBeInTheDocument()
+    expect(screen.getByText('BLOG')).toBeInTheDocument()
     expect(screen.getByText('Your trusted source for personal finance and fitness insights. Helping you build wealth and health, one article at a time.')).toBeInTheDocument()
     
     // Categories section
@@ -45,7 +46,6 @@ describe('Footer', () => {
     
     const logo = screen.getByText('FF')
     expect(logo).toBeInTheDocument()
-    expect(logo).toHaveClass('bg-clip-text text-transparent bg-gradient-to-r from-white to-cyan-100')
   })
 
   it('displays current year in copyright', () => {

@@ -17,51 +17,61 @@ describe('Header', () => {
   it('renders navigation links correctly', () => {
     render(<Header />)
     
-    expect(screen.getByText('Home')).toBeInTheDocument()
-    expect(screen.getByText('Finance')).toBeInTheDocument()
-    expect(screen.getByText('Fitness')).toBeInTheDocument()
-    expect(screen.getByText('FinFit Blog')).toBeInTheDocument()
+    expect(screen.getAllByText('Home')).toHaveLength(2) // Desktop and mobile
+    expect(screen.getAllByText('Finance')).toHaveLength(2) // Desktop and mobile
+    expect(screen.getAllByText('Fitness')).toHaveLength(2) // Desktop and mobile
+    expect(screen.getByText('FinFit')).toBeInTheDocument()
+    expect(screen.getByText('BLOG')).toBeInTheDocument()
   })
 
   it('renders logo with "FF" text', () => {
     render(<Header />)
     
     expect(screen.getByText('FF')).toBeInTheDocument()
-    expect(screen.getByText('FinFit Blog')).toBeInTheDocument()
+    expect(screen.getByText('FinFit')).toBeInTheDocument()
+    expect(screen.getByText('BLOG')).toBeInTheDocument()
   })
 
   it('links to correct URLs', () => {
     render(<Header />)
     
-    expect(screen.getByText('Home').closest('a')).toHaveAttribute('href', '/')
-    expect(screen.getByText('Finance').closest('a')).toHaveAttribute('href', '/categories/finance')
-    expect(screen.getByText('Fitness').closest('a')).toHaveAttribute('href', '/categories/fitness')
+    const homeLinks = screen.getAllByText('Home')
+    const financeLinks = screen.getAllByText('Finance')
+    const fitnessLinks = screen.getAllByText('Fitness')
+    
+    // Check desktop navigation links (first ones)
+    expect(homeLinks[0].closest('a')).toHaveAttribute('href', '/')
+    expect(financeLinks[0].closest('a')).toHaveAttribute('href', '/categories/finance')
+    expect(fitnessLinks[0].closest('a')).toHaveAttribute('href', '/categories/fitness')
+    
+    // Check logo link
     expect(screen.getByText('FF').closest('a')).toHaveAttribute('href', '/')
   })
 
   it('shows search component on desktop', () => {
     render(<Header />)
     
-    expect(screen.getByTestId('search-component')).toBeInTheDocument()
+    const searchComponents = screen.getAllByTestId('search-component')
+    expect(searchComponents.length).toBeGreaterThanOrEqual(1)
   })
 
   it('toggles mobile menu when button is clicked', () => {
     render(<Header />)
     
-    // Initially mobile menu should be hidden
-    expect(screen.queryByText('Home', { selector: 'a' })).toBeInTheDocument()
-    
     // Get mobile menu button
     const menuButton = screen.getByRole('button', { name: /open main menu/i })
     expect(menuButton).toBeInTheDocument()
+    
+    // Initially aria-expanded should be false
+    expect(menuButton).toHaveAttribute('aria-expanded', 'false')
     
     // Click to open menu
     fireEvent.click(menuButton)
     
     // Check that navigation is still there (it's always there, just visibility changes)
-    expect(screen.getByText('Home')).toBeInTheDocument()
-    expect(screen.getByText('Finance')).toBeInTheDocument()
-    expect(screen.getByText('Fitness')).toBeInTheDocument()
+    expect(screen.getAllByText('Home')).toHaveLength(2)
+    expect(screen.getAllByText('Finance')).toHaveLength(2)
+    expect(screen.getAllByText('Fitness')).toHaveLength(2)
   })
 
   it('shows search in mobile menu when opened', () => {
