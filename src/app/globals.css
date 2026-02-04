@@ -1,26 +1,122 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #faf9f6;
+  --foreground: #2d3748;
+  --muted: #f0f4f8;
+  --muted-foreground: #718096;
+  --accent: #e6fffa;
+  --accent-foreground: #2d3748;
+  --border: #e2e8f0;
+  --ring: #38b2ac;
+  --primary: #38b2ac;
+  --primary-foreground: #ffffff;
+  --secondary: #f7fafc;
+  --secondary-foreground: #2d3748;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1a202c;
+    --foreground: #f7fafc;
+    --muted: #2d3748;
+    --muted-foreground: #a0aec0;
+    --accent: #2d3748;
+    --accent-foreground: #f7fafc;
+    --border: #4a5568;
+    --ring: #38b2ac;
+    --primary: #38b2ac;
+    --primary-foreground: #ffffff;
+    --secondary: #2d3748;
+    --secondary-foreground: #f7fafc;
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --font-sans: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono), 'SF Mono', Monaco, 'Cascadia Code', monospace;
+  --radius-lg: 1rem;
+  --radius-md: 0.75rem;
+  --radius-sm: 0.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0f172a;
+    --foreground: #f8fafc;
+    --muted: #1e293b;
+    --muted-foreground: #94a3b8;
+    --accent: #1e293b;
+    --accent-foreground: #f8fafc;
+    --border: #334155;
+    --ring: #0ea5e9;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+/* Blog content typography */
+.prose {
+  @apply max-w-none;
+}
+
+.prose h1 {
+  @apply text-3xl font-bold mt-8 mb-4 text-foreground;
+}
+
+.prose h2 {
+  @apply text-2xl font-semibold mt-6 mb-3 text-foreground;
+}
+
+.prose h3 {
+  @apply text-xl font-semibold mt-4 mb-2 text-foreground;
+}
+
+.prose p {
+  @apply mb-4 leading-7 text-foreground;
+}
+
+.prose a {
+  @apply text-primary hover:text-primary/80 underline transition-colors;
+}
+
+.prose ul, .prose ol {
+  @apply mb-4 ml-6;
+}
+
+.prose li {
+  @apply mb-2 text-foreground;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-primary pl-4 italic text-muted-foreground;
+}
+
+.prose code {
+  @apply bg-muted px-1 py-0.5 rounded text-sm font-mono text-foreground;
+}
+
+.prose pre {
+  @apply bg-muted p-4 rounded-lg overflow-x-auto mb-4;
+}
+
+.prose pre code {
+  @apply bg-transparent p-0;
 }

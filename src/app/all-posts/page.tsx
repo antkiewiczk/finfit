@@ -2,33 +2,29 @@ import { getAllPosts, getCategories } from '@/lib/content'
 import BlogCard from '@/components/blog/BlogCard'
 import CategoryFilter from '@/components/blog/CategoryFilter'
 
-export default async function Home() {
+export default async function AllPosts() {
   const [posts, categories] = await Promise.all([
     getAllPosts(),
     getCategories()
   ])
 
-  const featuredPosts = posts.slice(0, 6)
-  const totalPosts = posts.length
-
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {/* Hero Section */}
+      {/* Header */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-          Personal Finance & Fitness Insights
+          All Articles
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Your trusted resource for building wealth and health. Expert advice on budgeting, 
-          investing, workouts, and nutrition to help you live your best life.
+          Browse our complete collection of personal finance and fitness articles.
         </p>
       </div>
 
-       {/* Stats */}
+      {/* Stats */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
         <div className="text-center p-6 bg-gradient-to-br from-background to-accent border rounded-lg shadow-sm">
-          <div className="text-3xl font-bold text-foreground mb-2">{totalPosts}</div>
-          <div className="text-muted-foreground">Articles Published</div>
+          <div className="text-3xl font-bold text-foreground mb-2">{posts.length}</div>
+          <div className="text-muted-foreground">Total Articles</div>
         </div>
         <div className="text-center p-6 bg-gradient-to-br from-background to-accent border rounded-lg shadow-sm">
           <div className="text-3xl font-bold text-foreground mb-2">
@@ -52,18 +48,18 @@ export default async function Home() {
 
         {/* Main Content */}
         <main className="lg:col-span-3">
-          {/* Featured Posts */}
-          <section className="mb-12">
+          {/* All Posts */}
+          <section>
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-2xl font-bold text-foreground">Featured Articles</h2>
+              <h2 className="text-2xl font-bold text-foreground">All Articles</h2>
               <div className="text-sm text-muted-foreground">
-                Showing {featuredPosts.length} of {totalPosts} articles
+                Showing {posts.length} articles
               </div>
             </div>
 
-            {featuredPosts.length > 0 ? (
+            {posts.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {featuredPosts.map((post) => (
+                {posts.map((post) => (
                   <BlogCard key={post.slug} post={post} />
                 ))}
               </div>
@@ -80,17 +76,15 @@ export default async function Home() {
             )}
           </section>
 
-          {/* View All Link */}
-          {totalPosts > 6 && (
-            <div className="text-center">
-              <a
-                href="/all-posts"
-                className="inline-flex items-center px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/80 transition-colors"
-              >
-                View All Articles ({totalPosts - 6} more)
-              </a>
-            </div>
-          )}
+          {/* Back to Home */}
+          <div className="text-center mt-12">
+            <a
+              href="/"
+              className="inline-flex items-center px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/80 transition-colors"
+            >
+              Back to Home
+            </a>
+          </div>
         </main>
       </div>
     </div>
