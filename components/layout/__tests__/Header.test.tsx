@@ -7,7 +7,7 @@ jest.mock('next/link', () => {
   }
 })
 
-jest.mock('../search/Search', () => {
+jest.mock('../../search/Search', () => {
   return function MockSearch({ className }: { className?: string }) {
     return <div data-testid="search-component" className={className}>Search Component</div>
   }

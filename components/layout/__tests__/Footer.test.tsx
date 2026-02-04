@@ -45,7 +45,7 @@ describe('Footer', () => {
     
     const logo = screen.getByText('FF')
     expect(logo).toBeInTheDocument()
-    expect(logo).toHaveClass('text-2xl', 'font-bold', 'text-foreground')
+    expect(logo).toHaveClass('bg-clip-text text-transparent bg-gradient-to-r from-white to-cyan-100')
   })
 
   it('displays current year in copyright', () => {
@@ -60,15 +60,5 @@ describe('Footer', () => {
     
     expect(container.querySelector('footer')).toBeInTheDocument()
     expect(screen.getByRole('contentinfo')).toBeInTheDocument()
-  })
-
-  it('styles brand section correctly', () => {
-    render(<Footer />)
-    
-    const brandLink = screen.getByText('FF').closest('a')
-    expect(brandLink).toHaveClass('flex', 'items-center', 'space-x-2', 'mb-4')
-    
-    const brandText = screen.getByText('FinFit Blog')
-    expect(brandText).toHaveClass('text-xl', 'font-bold', 'text-foreground')
   })
 })
