@@ -1,10 +1,18 @@
 ---
-title: "Debt-Free Living: Strategies to Eliminate Debt Faster"
-description: "Discover proven methods to pay off debt efficiently. From the snowball method to debt consolidation, learn how to become debt-free and regain financial freedom."
-date: "2026-01-05"
-category: "finance"
-tags: ["debt repayment", "financial freedom", "budgeting", "credit cards", "loans"]
-coverImage: "/images/debt-free.jpg"
+title: 'Debt-Free Living: Strategies to Eliminate Debt Faster'
+description: >-
+  Discover proven methods to pay off debt efficiently. From the snowball method
+  to debt consolidation, learn how to become debt-free and regain financial
+  freedom.
+date: '2026-01-05'
+category: finance
+tags:
+  - debt repayment
+  - financial freedom
+  - budgeting
+  - credit cards
+  - loans
+coverImage: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c'
 ---
 
 # Debt-Free Living: Strategies to Eliminate Debt Faster

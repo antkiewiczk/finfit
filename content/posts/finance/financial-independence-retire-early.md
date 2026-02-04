@@ -1,10 +1,18 @@
 ---
-title: "FIRE Movement: Achieving Financial Independence and Retiring Early"
-description: "Learn about the Financial Independence, Retire Early (FIRE) movement. Discover strategies to save aggressively, invest wisely, and achieve freedom decades before traditional retirement age."
-date: "2026-02-10"
-category: "finance"
-tags: ["FIRE", "financial independence", "early retirement", "investing", "minimalism"]
-coverImage: "/images/fire-movement.jpg"
+title: 'FIRE Movement: Achieving Financial Independence and Retiring Early'
+description: >-
+  Learn about the Financial Independence, Retire Early (FIRE) movement. Discover
+  strategies to save aggressively, invest wisely, and achieve freedom decades
+  before traditional retirement age.
+date: '2026-02-10'
+category: finance
+tags:
+  - FIRE
+  - financial independence
+  - early retirement
+  - investing
+  - minimalism
+coverImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71'
 ---
 
 # FIRE Movement: Achieving Financial Independence and Retiring Early

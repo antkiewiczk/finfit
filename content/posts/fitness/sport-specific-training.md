@@ -1,10 +1,18 @@
 ---
-title: "Sport-Specific Training: Prepare Your Body for Peak Performance"
-description: "Learn how to design training programs for specific sports. From running and swimming to basketball and soccer, discover exercises that translate to better performance."
-date: "2026-02-28"
-category: "fitness"
-tags: ["sports training", "performance", "athletics", "conditioning", "skill development"]
-coverImage: "/images/sport-specific-training.jpg"
+title: 'Sport-Specific Training: Prepare Your Body for Peak Performance'
+description: >-
+  Learn how to design training programs for specific sports. From running and
+  swimming to basketball and soccer, discover exercises that translate to better
+  performance.
+date: '2026-02-28'
+category: fitness
+tags:
+  - sports training
+  - performance
+  - athletics
+  - conditioning
+  - skill development
+coverImage: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211'
 ---
 
 # Sport-Specific Training: Prepare Your Body for Peak Performance

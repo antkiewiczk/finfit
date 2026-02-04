@@ -1,10 +1,17 @@
 ---
-title: "Emergency Fund Essentials: Your Financial Safety Net"
-description: "Learn why an emergency fund is crucial and how to build one. Discover how much to save, where to keep it, and when to use it for true financial security."
-date: "2026-01-08"
-category: "finance"
-tags: ["emergency fund", "savings", "financial security", "budgeting", "personal finance"]
-coverImage: "/images/emergency-fund.jpg"
+title: 'Emergency Fund Essentials: Your Financial Safety Net'
+description: >-
+  Learn why an emergency fund is crucial and how to build one. Discover how much
+  to save, where to keep it, and when to use it for true financial security.
+date: '2026-01-08'
+category: finance
+tags:
+  - emergency fund
+  - savings
+  - financial security
+  - budgeting
+  - personal finance
+coverImage: 'https://images.unsplash.com/photo-1554224154-22dec7ec8818'
 ---
 
 # Emergency Fund Essentials: Your Financial Safety Net

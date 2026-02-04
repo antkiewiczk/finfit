@@ -1,10 +1,18 @@
 ---
-title: "Sleep & Recovery Optimization: Maximize Your Results"
-description: "Learn how to optimize sleep and recovery for better fitness results. From sleep hygiene to active recovery strategies, discover how to enhance your body's repair processes."
-date: "2026-02-15"
-category: "fitness"
-tags: ["sleep", "recovery", "rest", "performance", "health"]
-coverImage: "/images/sleep-recovery.jpg"
+title: 'Sleep & Recovery Optimization: Maximize Your Results'
+description: >-
+  Learn how to optimize sleep and recovery for better fitness results. From
+  sleep hygiene to active recovery strategies, discover how to enhance your
+  body's repair processes.
+date: '2026-02-15'
+category: fitness
+tags:
+  - sleep
+  - recovery
+  - rest
+  - performance
+  - health
+coverImage: 'https://images.unsplash.com/photo-1548600916-dc8492f8e845'
 ---
 
 # Sleep & Recovery Optimization: Maximize Your Results

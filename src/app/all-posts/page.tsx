@@ -1,57 +1,58 @@
-import { getAllPosts, getCategories } from '@/lib/content'
-import BlogCard from '@/components/blog/BlogCard'
-import CategoryFilter from '@/components/blog/CategoryFilter'
+import { getAllPosts, getCategories } from "@/lib/content";
+import BlogCard from "@/components/blog/BlogCard";
+import CategoryFilter from "@/components/blog/CategoryFilter";
+import Link from "next/link";
 
 export default async function AllPosts() {
   const [posts, categories] = await Promise.all([
     getAllPosts(),
-    getCategories()
-  ])
+    getCategories(),
+  ]);
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {/* Header */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
           All Articles
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Browse our complete collection of personal finance and fitness articles.
+          Browse our complete collection of personal finance and fitness
+          articles.
         </p>
       </div>
 
-      {/* Stats */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
         <div className="text-center p-6 bg-gradient-to-br from-background to-accent border rounded-lg shadow-sm">
-          <div className="text-3xl font-bold text-foreground mb-2">{posts.length}</div>
+          <div className="text-3xl font-bold text-foreground mb-2">
+            {posts.length}
+          </div>
           <div className="text-muted-foreground">Total Articles</div>
         </div>
         <div className="text-center p-6 bg-gradient-to-br from-background to-accent border rounded-lg shadow-sm">
           <div className="text-3xl font-bold text-foreground mb-2">
-            {categories.find(c => c.name === 'finance')?.count || 0}
+            {categories.find((c) => c.name === "finance")?.count || 0}
           </div>
           <div className="text-muted-foreground">Finance Articles</div>
         </div>
         <div className="text-center p-6 bg-gradient-to-br from-background to-accent border rounded-lg shadow-sm">
           <div className="text-3xl font-bold text-foreground mb-2">
-            {categories.find(c => c.name === 'fitness')?.count || 0}
+            {categories.find((c) => c.name === "fitness")?.count || 0}
           </div>
           <div className="text-muted-foreground">Fitness Articles</div>
         </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-        {/* Sidebar */}
         <aside className="lg:col-span-1">
           <CategoryFilter categories={categories} />
         </aside>
 
-        {/* Main Content */}
         <main className="lg:col-span-3">
-          {/* All Posts */}
           <section>
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-2xl font-bold text-foreground">All Articles</h2>
+              <h2 className="text-2xl font-bold text-foreground">
+                All Articles
+              </h2>
               <div className="text-sm text-muted-foreground">
                 Showing {posts.length} articles
               </div>
@@ -70,23 +71,23 @@ export default async function AllPosts() {
                   No articles yet
                 </h3>
                 <p className="text-muted-foreground">
-                  Check back soon for new content about personal finance and fitness!
+                  Check back soon for new content about personal finance and
+                  fitness!
                 </p>
               </div>
             )}
           </section>
 
-          {/* Back to Home */}
           <div className="text-center mt-12">
-            <a
+            <Link
               href="/"
               className="inline-flex items-center px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/80 transition-colors"
             >
               Back to Home
-            </a>
+            </Link>
           </div>
         </main>
       </div>
     </div>
-  )
+  );
 }

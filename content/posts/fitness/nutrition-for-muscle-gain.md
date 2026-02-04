@@ -1,10 +1,18 @@
 ---
-title: "Nutrition for Muscle Gain: What to Eat for Maximum Results"
-description: "Learn the essential nutrition principles for building muscle effectively. From protein timing to calorie surplus, discover how to fuel your body for optimal growth."
-date: "2026-01-28"
-category: "fitness"
-tags: ["nutrition", "muscle building", "protein", "meal planning", "supplements"]
-coverImage: "/images/muscle-nutrition.jpg"
+title: 'Nutrition for Muscle Gain: What to Eat for Maximum Results'
+description: >-
+  Learn the essential nutrition principles for building muscle effectively. From
+  protein timing to calorie surplus, discover how to fuel your body for optimal
+  growth.
+date: '2026-01-28'
+category: fitness
+tags:
+  - nutrition
+  - muscle building
+  - protein
+  - meal planning
+  - supplements
+coverImage: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af'
 ---
 
 # Nutrition for Muscle Gain: What to Eat for Maximum Results

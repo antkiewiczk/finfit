@@ -20,7 +20,6 @@ interface SocialShareProps {
 export default function SocialShare({ url, title, description }: SocialShareProps) {
   return (
     <div className="flex flex-wrap gap-3">
-      {/* Twitter/X */}
       <TwitterShareButton
         url={url}
         title={title}
@@ -30,7 +29,6 @@ export default function SocialShare({ url, title, description }: SocialShareProp
         <TwitterIcon size={32} round />
       </TwitterShareButton>
 
-      {/* Facebook */}
       <FacebookShareButton
         url={url}
         quote={description}
@@ -39,7 +37,6 @@ export default function SocialShare({ url, title, description }: SocialShareProp
         <FacebookIcon size={32} round />
       </FacebookShareButton>
 
-      {/* LinkedIn */}
       <LinkedinShareButton
         url={url}
         title={title}
@@ -49,7 +46,6 @@ export default function SocialShare({ url, title, description }: SocialShareProp
         <LinkedinIcon size={32} round />
       </LinkedinShareButton>
 
-      {/* WhatsApp */}
       <WhatsappShareButton
         url={url}
         title={title}

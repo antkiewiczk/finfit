@@ -13,7 +13,6 @@ export default async function Home() {
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {/* Hero Section */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
           Personal Finance & Fitness Insights
@@ -24,7 +23,6 @@ export default async function Home() {
         </p>
       </div>
 
-       {/* Stats */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
         <div className="text-center p-6 bg-gradient-to-br from-background to-accent border rounded-lg shadow-sm">
           <div className="text-3xl font-bold text-foreground mb-2">{totalPosts}</div>
@@ -45,14 +43,11 @@ export default async function Home() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-        {/* Sidebar */}
         <aside className="lg:col-span-1">
           <CategoryFilter categories={categories} />
         </aside>
 
-        {/* Main Content */}
         <main className="lg:col-span-3">
-          {/* Featured Posts */}
           <section className="mb-12">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-2xl font-bold text-foreground">Featured Articles</h2>
@@ -80,7 +75,6 @@ export default async function Home() {
             )}
           </section>
 
-          {/* View All Link */}
           {totalPosts > 6 && (
             <div className="text-center">
               <a

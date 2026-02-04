@@ -1,10 +1,17 @@
 ---
-title: "Build Muscle at Home: No Equipment Needed"
-description: "Transform your body with these effective bodyweight exercises. Perfect for beginners and experienced fitness enthusiasts looking to build muscle without gym equipment."
-date: "2026-01-20"
-category: "fitness"
-tags: ["bodyweight exercises", "muscle building", "home workout", "fitness"]
-coverImage: "/images/home-workout.jpg"
+title: 'Build Muscle at Home: No Equipment Needed'
+description: >-
+  Transform your body with these effective bodyweight exercises. Perfect for
+  beginners and experienced fitness enthusiasts looking to build muscle without
+  gym equipment.
+date: '2026-01-20'
+category: fitness
+tags:
+  - bodyweight exercises
+  - muscle building
+  - home workout
+  - fitness
+coverImage: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b'
 ---
 
 # Build Muscle at Home: No Equipment Needed

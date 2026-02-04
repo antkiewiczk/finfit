@@ -1,10 +1,18 @@
 ---
-title: "Retirement Planning: How to Secure Your Financial Future"
-description: "Comprehensive guide to retirement planning at any age. Learn about retirement accounts, investment strategies, and how much you need to save for a comfortable retirement."
-date: "2026-01-25"
-category: "finance"
-tags: ["retirement", "401k", "IRA", "investing", "financial planning"]
-coverImage: "/images/retirement-planning.jpg"
+title: 'Retirement Planning: How to Secure Your Financial Future'
+description: >-
+  Comprehensive guide to retirement planning at any age. Learn about retirement
+  accounts, investment strategies, and how much you need to save for a
+  comfortable retirement.
+date: '2026-01-25'
+category: finance
+tags:
+  - retirement
+  - 401k
+  - IRA
+  - investing
+  - financial planning
+coverImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f'
 ---
 
 # Retirement Planning: How to Secure Your Financial Future

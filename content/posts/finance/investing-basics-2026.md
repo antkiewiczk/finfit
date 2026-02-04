@@ -1,10 +1,18 @@
 ---
-title: "Investing 101: A Beginner's Guide to Building Wealth"
-description: "Learn the fundamentals of investing for long-term wealth creation. From stocks and bonds to ETFs and mutual funds, discover how to start your investment journey."
-date: "2026-01-10"
-category: "finance"
-tags: ["investing", "stocks", "bonds", "wealth building", "beginner investing"]
-coverImage: "/images/investing-basics.jpg"
+title: 'Investing 101: A Beginner''s Guide to Building Wealth'
+description: >-
+  Learn the fundamentals of investing for long-term wealth creation. From stocks
+  and bonds to ETFs and mutual funds, discover how to start your investment
+  journey.
+date: '2026-01-10'
+category: finance
+tags:
+  - investing
+  - stocks
+  - bonds
+  - wealth building
+  - beginner investing
+coverImage: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3'
 ---
 
 # Investing 101: A Beginner's Guide to Building Wealth

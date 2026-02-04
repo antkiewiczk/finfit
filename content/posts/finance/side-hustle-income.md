@@ -1,10 +1,17 @@
 ---
-title: "Side Hustle Income: 25 Ways to Earn Extra Money"
-description: "Discover legitimate side hustles to boost your income. From online gigs to local services, find opportunities that match your skills and schedule."
-date: "2026-01-12"
-category: "finance"
-tags: ["side hustle", "extra income", "freelance", "gig economy", "entrepreneurship"]
-coverImage: "/images/side-hustle.jpg"
+title: 'Side Hustle Income: 25 Ways to Earn Extra Money'
+description: >-
+  Discover legitimate side hustles to boost your income. From online gigs to
+  local services, find opportunities that match your skills and schedule.
+date: '2026-01-12'
+category: finance
+tags:
+  - side hustle
+  - extra income
+  - freelance
+  - gig economy
+  - entrepreneurship
+coverImage: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d'
 ---
 
 # Side Hustle Income: 25 Ways to Earn Extra Money

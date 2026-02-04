@@ -133,10 +133,42 @@ npm run type-check    # Run TypeScript checks
 npm run preview      # Build and preview production
 ```
 
-## Customization
+## Image Management
+
+### Using Unsplash Images
+The blog uses direct Unsplash CDN URLs for all images - no local storage or API keys needed!
+
+#### How It Works
+1. **Direct CDN URLs**: Each blog post uses a direct Unsplash image URL
+2. **Automatic optimization**: Next.js Image component handles resizing and format conversion
+3. **No setup required**: No API keys, no local storage, no caching needed
+
+#### Available Scripts
+```bash
+# Update all blog posts with Unsplash URLs
+npm run update-unsplash-images
+
+# Get a list of Unsplash URLs for all posts
+npm run get-unsplash-urls
+```
+
+#### Adding Images to New Posts
+Simply add a `coverImage` field to your frontmatter with any Unsplash URL:
+```markdown
+---
+title: "Your Article"
+coverImage: "https://images.unsplash.com/photo-1234567890"
+---
+```
+
+#### Image Optimization
+- **Next.js Image component**: Automatic optimization and resizing
+- **Responsive images**: Multiple sizes generated automatically
+- **WebP/AVIF support**: Modern formats for better performance
+- **Lazy loading**: Images load as needed
+- **CDN caching**: Unsplash handles image delivery and caching
 
 ### Colors and Theme
-
 Edit `src/app/globals.css` to customize:
 - CSS variables for colors
 - Theme configurations
@@ -202,6 +234,10 @@ Update components in `components/blog/`:
      ```
 
 4. **Verify SSL** (Vercel handles this automatically)
+
+### Image Setup
+Images are already configured! All blog posts use direct Unsplash CDN URLs.
+No additional setup needed for deployment.
 
 ## SEO Features
 

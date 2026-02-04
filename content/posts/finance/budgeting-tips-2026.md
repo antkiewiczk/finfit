@@ -1,10 +1,17 @@
 ---
-title: "10 Budgeting Tips for Financial Freedom in 2026"
-description: "Learn practical budgeting strategies that can help you achieve financial freedom this year. From zero-based budgeting to the 50/30/20 rule, discover what works best."
-date: "2026-01-15"
-category: "finance"
-tags: ["budgeting", "financial planning", "money management", "savings"]
-coverImage: "/images/budgeting-2026.jpg"
+title: 10 Budgeting Tips for Financial Freedom in 2026
+description: >-
+  Learn practical budgeting strategies that can help you achieve financial
+  freedom this year. From zero-based budgeting to the 50/30/20 rule, discover
+  what works best.
+date: '2026-01-15'
+category: finance
+tags:
+  - budgeting
+  - financial planning
+  - money management
+  - savings
+coverImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f'
 ---
 
 # 10 Budgeting Tips for Financial Freedom in 2026

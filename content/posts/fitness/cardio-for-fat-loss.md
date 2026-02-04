@@ -1,10 +1,17 @@
 ---
-title: "Cardio for Fat Loss: Maximizing Results with Minimum Time"
-description: "Learn the most effective cardio strategies for burning fat. From HIIT to steady-state, discover which approach works best for your goals and schedule."
-date: "2026-02-08"
-category: "fitness"
-tags: ["cardio", "fat loss", "HIIT", "running", "weight loss"]
-coverImage: "/images/cardio-fat-loss.jpg"
+title: 'Cardio for Fat Loss: Maximizing Results with Minimum Time'
+description: >-
+  Learn the most effective cardio strategies for burning fat. From HIIT to
+  steady-state, discover which approach works best for your goals and schedule.
+date: '2026-02-08'
+category: fitness
+tags:
+  - cardio
+  - fat loss
+  - HIIT
+  - running
+  - weight loss
+coverImage: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b'
 ---
 
 # Cardio for Fat Loss: Maximizing Results with Minimum Time

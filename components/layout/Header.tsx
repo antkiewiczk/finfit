@@ -13,14 +13,12 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <Logo />
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link 
               href="/" 
@@ -42,12 +40,10 @@ export default function Header() {
             </Link>
           </nav>
 
-          {/* Search - Desktop */}
           <div className="hidden md:block w-64">
             <Search />
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -68,7 +64,6 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile Navigation with Search */}
         <div className={cn(
           "md:hidden transition-all duration-300 ease-in-out",
           isMenuOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0 overflow-hidden"

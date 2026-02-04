@@ -1,10 +1,18 @@
 ---
-title: "Mental Health & Exercise: How Fitness Improves Your Mind"
-description: "Discover the powerful connection between physical activity and mental wellbeing. Learn how exercise reduces stress, anxiety, and depression while boosting mood and cognitive function."
-date: "2026-02-18"
-category: "fitness"
-tags: ["mental health", "stress relief", "anxiety", "depression", "mindfulness"]
-coverImage: "/images/mental-health-exercise.jpg"
+title: 'Mental Health & Exercise: How Fitness Improves Your Mind'
+description: >-
+  Discover the powerful connection between physical activity and mental
+  wellbeing. Learn how exercise reduces stress, anxiety, and depression while
+  boosting mood and cognitive function.
+date: '2026-02-18'
+category: fitness
+tags:
+  - mental health
+  - stress relief
+  - anxiety
+  - depression
+  - mindfulness
+coverImage: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b'
 ---
 
 # Mental Health & Exercise: How Fitness Improves Your Mind

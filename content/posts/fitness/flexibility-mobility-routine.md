@@ -1,10 +1,18 @@
 ---
-title: "Flexibility & Mobility Routine: Move Better, Feel Better"
-description: "Improve your range of motion and reduce injury risk with this comprehensive flexibility and mobility program. Learn exercises for all major joints and muscle groups."
-date: "2026-02-12"
-category: "fitness"
-tags: ["flexibility", "mobility", "stretching", "yoga", "recovery"]
-coverImage: "/images/flexibility-mobility.jpg"
+title: 'Flexibility & Mobility Routine: Move Better, Feel Better'
+description: >-
+  Improve your range of motion and reduce injury risk with this comprehensive
+  flexibility and mobility program. Learn exercises for all major joints and
+  muscle groups.
+date: '2026-02-12'
+category: fitness
+tags:
+  - flexibility
+  - mobility
+  - stretching
+  - yoga
+  - recovery
+coverImage: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b'
 ---
 
 # Flexibility & Mobility Routine: Move Better, Feel Better

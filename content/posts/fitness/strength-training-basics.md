@@ -1,10 +1,17 @@
 ---
-title: "Strength Training Basics: Build a Foundation for Lifelong Fitness"
-description: "Learn the fundamental principles of strength training. From proper form to program design, discover how to build strength safely and effectively."
-date: "2026-01-30"
-category: "fitness"
-tags: ["strength training", "weight lifting", "form", "progressive overload", "beginner"]
-coverImage: "/images/strength-training.jpg"
+title: 'Strength Training Basics: Build a Foundation for Lifelong Fitness'
+description: >-
+  Learn the fundamental principles of strength training. From proper form to
+  program design, discover how to build strength safely and effectively.
+date: '2026-01-30'
+category: fitness
+tags:
+  - strength training
+  - weight lifting
+  - form
+  - progressive overload
+  - beginner
+coverImage: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b'
 ---
 
 # Strength Training Basics: Build a Foundation for Lifelong Fitness

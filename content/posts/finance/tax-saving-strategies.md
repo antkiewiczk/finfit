@@ -1,10 +1,18 @@
 ---
-title: "Tax-Saving Strategies: Keep More of Your Money Legally"
-description: "Learn legitimate ways to reduce your tax burden. From deductions and credits to retirement contributions and investment strategies, discover how to optimize your taxes."
-date: "2026-02-01"
-category: "finance"
-tags: ["taxes", "deductions", "credits", "tax planning", "investing"]
-coverImage: "/images/tax-saving.jpg"
+title: 'Tax-Saving Strategies: Keep More of Your Money Legally'
+description: >-
+  Learn legitimate ways to reduce your tax burden. From deductions and credits
+  to retirement contributions and investment strategies, discover how to
+  optimize your taxes.
+date: '2026-02-01'
+category: finance
+tags:
+  - taxes
+  - deductions
+  - credits
+  - tax planning
+  - investing
+coverImage: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c'
 ---
 
 # Tax-Saving Strategies: Keep More of Your Money Legally

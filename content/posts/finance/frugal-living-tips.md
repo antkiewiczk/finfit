@@ -1,10 +1,18 @@
 ---
-title: "Frugal Living Tips: Save Money Without Sacrificing Quality of Life"
-description: "Discover practical frugal living strategies that help you save money while maintaining a fulfilling lifestyle. Learn to distinguish between frugality and deprivation."
-date: "2026-01-18"
-category: "finance"
-tags: ["frugal living", "saving money", "budgeting", "minimalism", "financial independence"]
-coverImage: "/images/frugal-living.jpg"
+title: 'Frugal Living Tips: Save Money Without Sacrificing Quality of Life'
+description: >-
+  Discover practical frugal living strategies that help you save money while
+  maintaining a fulfilling lifestyle. Learn to distinguish between frugality and
+  deprivation.
+date: '2026-01-18'
+category: finance
+tags:
+  - frugal living
+  - saving money
+  - budgeting
+  - minimalism
+  - financial independence
+coverImage: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d'
 ---
 
 # Frugal Living Tips: Save Money Without Sacrificing Quality of Life

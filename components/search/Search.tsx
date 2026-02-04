@@ -95,7 +95,6 @@ export default function Search({ className }: SearchProps) {
         )}
       </div>
 
-      {/* Search Results Dropdown */}
       {isOpen && (query.trim() || results.length > 0) && (
         <div className="absolute top-full mt-2 w-full bg-background border rounded-lg shadow-lg max-h-96 overflow-y-auto z-50">
           {query.trim() && !isLoading && results.length === 0 && (

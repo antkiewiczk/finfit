@@ -1,10 +1,18 @@
 ---
-title: "Credit Score Improvement: How to Boost Your Score Fast"
-description: "Learn proven strategies to improve your credit score quickly. From payment history to credit utilization, discover what affects your score and how to optimize it."
-date: "2026-01-22"
-category: "finance"
-tags: ["credit score", "credit repair", "debt", "financial health", "credit cards"]
-coverImage: "/images/credit-score.jpg"
+title: 'Credit Score Improvement: How to Boost Your Score Fast'
+description: >-
+  Learn proven strategies to improve your credit score quickly. From payment
+  history to credit utilization, discover what affects your score and how to
+  optimize it.
+date: '2026-01-22'
+category: finance
+tags:
+  - credit score
+  - credit repair
+  - debt
+  - financial health
+  - credit cards
+coverImage: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c'
 ---
 
 # Credit Score Improvement: How to Boost Your Score Fast

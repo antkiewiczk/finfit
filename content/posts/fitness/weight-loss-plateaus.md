@@ -1,10 +1,17 @@
 ---
-title: "Breaking Through Weight Loss Plateaus: Strategies That Work"
-description: "Stuck at the same weight despite your efforts? Learn proven strategies to break through plateaus and continue making progress toward your fitness goals."
-date: "2026-02-22"
-category: "fitness"
-tags: ["weight loss", "plateau", "metabolism", "diet", "fitness"]
-coverImage: "/images/weight-loss-plateau.jpg"
+title: 'Breaking Through Weight Loss Plateaus: Strategies That Work'
+description: >-
+  Stuck at the same weight despite your efforts? Learn proven strategies to
+  break through plateaus and continue making progress toward your fitness goals.
+date: '2026-02-22'
+category: fitness
+tags:
+  - weight loss
+  - plateau
+  - metabolism
+  - diet
+  - fitness
+coverImage: 'https://images.unsplash.com/photo-1518611012118-696072aa579a'
 ---
 
 # Breaking Through Weight Loss Plateaus: Strategies That Work

@@ -1,10 +1,17 @@
 ---
-title: "Injury Prevention Strategies: Train Smart, Stay Healthy"
-description: "Learn how to prevent common fitness injuries. From proper warm-ups to technique corrections, discover strategies to train safely and consistently."
-date: "2026-02-25"
-category: "fitness"
-tags: ["injury prevention", "safety", "recovery", "form", "training"]
-coverImage: "/images/injury-prevention.jpg"
+title: 'Injury Prevention Strategies: Train Smart, Stay Healthy'
+description: >-
+  Learn how to prevent common fitness injuries. From proper warm-ups to
+  technique corrections, discover strategies to train safely and consistently.
+date: '2026-02-25'
+category: fitness
+tags:
+  - injury prevention
+  - safety
+  - recovery
+  - form
+  - training
+coverImage: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b'
 ---
 
 # Injury Prevention Strategies: Train Smart, Stay Healthy

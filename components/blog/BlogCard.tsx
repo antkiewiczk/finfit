@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { formatDate } from '@/lib/utils'
+import { addParamsToImage, formatDate } from '@/lib/utils'
 import type { PostMetadata } from '@/lib/content'
 
 interface BlogCardProps {
@@ -11,11 +11,10 @@ export default function BlogCard({ post }: BlogCardProps) {
   return (
     <article className="group relative bg-background border rounded-lg overflow-hidden transition-all duration-200 hover:shadow-lg hover:shadow-accent/20">
       <Link href={`/blog/${post.slug}`} className="block">
-        {/* Cover Image */}
         {post.coverImage && (
           <div className="aspect-video relative overflow-hidden bg-muted">
             <Image
-              src={post.coverImage}
+              src={addParamsToImage(post.coverImage)}
               alt={post.title}
               fill
               className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -24,9 +23,7 @@ export default function BlogCard({ post }: BlogCardProps) {
           </div>
         )}
         
-        {/* Content */}
         <div className="p-6">
-          {/* Category Badge */}
           <div className="flex items-center justify-between mb-3">
             <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
               post.category === 'finance' 
@@ -40,17 +37,14 @@ export default function BlogCard({ post }: BlogCardProps) {
             </time>
           </div>
 
-          {/* Title */}
           <h3 className="text-xl font-semibold text-foreground mb-2 line-clamp-2 group-hover:text-accent-foreground transition-colors">
             {post.title}
           </h3>
 
-          {/* Description */}
           <p className="text-muted-foreground mb-4 line-clamp-3 text-sm leading-relaxed">
             {post.description}
           </p>
 
-          {/* Tags */}
           {post.tags && post.tags.length > 0 && (
             <div className="flex flex-wrap gap-1 mb-4">
               {post.tags.slice(0, 3).map((tag) => (
@@ -69,7 +63,6 @@ export default function BlogCard({ post }: BlogCardProps) {
             </div>
           )}
 
-          {/* Footer */}
           <div className="flex items-center justify-between text-sm text-muted-foreground">
             <span>{post.readingTime}</span>
             <span className="text-accent-foreground group-hover:translate-x-1 transition-transform">

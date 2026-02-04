@@ -1,10 +1,18 @@
 ---
-title: "Real Estate Investing Basics: Building Wealth Through Property"
-description: "Learn how to start investing in real estate. From rental properties to REITs, discover different strategies for building passive income and long-term wealth."
-date: "2026-02-05"
-category: "finance"
-tags: ["real estate", "rental properties", "investing", "passive income", "wealth building"]
-coverImage: "/images/real-estate-investing.jpg"
+title: 'Real Estate Investing Basics: Building Wealth Through Property'
+description: >-
+  Learn how to start investing in real estate. From rental properties to REITs,
+  discover different strategies for building passive income and long-term
+  wealth.
+date: '2026-02-05'
+category: finance
+tags:
+  - real estate
+  - rental properties
+  - investing
+  - passive income
+  - wealth building
+coverImage: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa'
 ---
 
 # Real Estate Investing Basics: Building Wealth Through Property
